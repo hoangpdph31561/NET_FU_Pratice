@@ -208,3 +208,9 @@ Console.WriteLine("╚═══════════════════�
 Console.WriteLine("\n[Nhấn phím bất kỳ để kết thúc...]");
 Console.ReadKey();
 
+static void PrintHeader(string title)
+{
+    Console.WriteLine("\n" + new string('═', title.Length + 4));
+    Console.WriteLine($"  {title}  ");
+    Console.WriteLine(new string('═', title.Length + 4) + "\n");
+}
