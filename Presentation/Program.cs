@@ -208,3 +208,8 @@ Console.WriteLine("╚═══════════════════�
 Console.WriteLine("\n[Nhấn phím bất kỳ để kết thúc...]");
 Console.ReadKey();
 
+static int CalculateAge(int theiBirthYear)
+{
+    int aiCurrentYear = DateTime.Now.Year;
+    return aiCurrentYear - theiBirthYear;
+}
